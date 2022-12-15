@@ -18,9 +18,9 @@ span{
     letter-spacing: 1px;
     line-height: 200px;
     position: absolute;
-    top: 49%;
+    top: 50.4%;
     left: 50%;
-    transform: translate(-49%, -50%);
+    transform: translate(-50.4%, -50%);
 }
 
 .centro{
