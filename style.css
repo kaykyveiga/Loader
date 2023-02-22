@@ -1,17 +1,16 @@
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 0;
     height: 0;
-    
 }
 
-body{
+body {
     margin: -1px;
-    padding: 0px; 
+    padding: 0px;
     font-weight: bold;
     background-color: #000000;
 }
 
-span{
+span {
     color: #737373;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -23,15 +22,15 @@ span{
     transform: translate(-50.4%, -50%);
 }
 
-.centro{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;  
+    min-height: 100vh;
 }
 
-.loading{
-    
+.loading {
+
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -39,21 +38,23 @@ span{
 }
 
 @keyframes loading {
-    0%{
+    0% {
         transform: rotate(0deg);
         box-shadow: 1px 5px 1px #e65c00;
     }
-    50%{
+
+    50% {
         transform: rotate(180deg);
         box-shadow: 1px 5px 1px #18b201;
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
         box-shadow: 1px 5px 1px #0456c8;
     }
 }
 
-.loading::before{
+.loading::before {
     position: absolute;
     top: 0px;
     left: 0px;
